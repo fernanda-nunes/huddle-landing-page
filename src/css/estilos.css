@@ -1,0 +1,114 @@
+body{
+    width: 1440px;
+    max-height: 100vh;
+    padding: 55px 70px 0 70px;
+    background-image: url(../images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat; 
+}
+
+header{
+    height: 52px;
+}
+
+header .logo{
+    height: 100%;
+} 
+
+section{
+    display: flex;
+    padding-top: 75px;
+    display: flex;
+    gap: 50px;
+}
+
+section .info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 45px;
+    color: white;
+    gap: 20px;
+}
+
+section .info h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 4rem;    
+}
+
+section .info p{
+    font-size: 1.88rem; 
+    opacity: 90%;
+    font-weight: 400; 
+    font-family: 'Open Sans', sans-serif;  
+}
+
+section .info button{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px; 
+    border: none;
+    box-shadow: 0 0 12px #0009;   
+    cursor: pointer; 
+    font-size: 1.84rem; 
+    font-weight: 400; 
+    font-family: 'Open Sans', sans-serif;  
+    margin-top: 5px; 
+    transition: 0.5s;
+}
+
+section .info button, a{
+    text-decoration: none;
+    color: hsl(257, 40%, 49%);
+}
+
+section .info button:hover{
+    color: white;
+    background-color: hsl(300, 69%, 71%);          
+}
+
+section .info button, a:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+    margin: 0;
+    height: 100px;
+}
+
+footer a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+footer i{
+    color: white;
+    font-size: 20px; 
+}
+
+footer a:hover{
+   color: hsl(300, 69%, 71%);
+   border-color: hsl(300, 69%, 71%);
+   transition: 0.5s;
+   cursor: pointer;
+}
+
+footer a i:hover{
+   color: hsl(300, 69%, 71%);
+   border-color: hsl(300, 69%, 71%);
+   transition: 0.5s;
+}
+
